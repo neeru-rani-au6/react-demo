@@ -1,0 +1,60 @@
+.video-card-container {
+    width: 283px;
+    height: 420px;
+    border-radius: 16px;
+    border: 1px solid var(--White-20, rgba(255, 255, 255, .2));
+    background: var(--White-05, rgba(255, 255, 255, .05));
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    overflow: hidden;
+    margin-left: 35px;
+}
+
+.video-card-container .ant-card-body{
+    padding: 0;
+}
+
+.play-video {
+    color: var(--White-60, rgba(255, 255, 255, .8));
+    text-shadow: 0px 0px 2px rgba(0, 0, 0, .4);
+    font-size: 45px;
+    font-weight: 400;
+    line-height: 20px;
+    position: absolute;
+    top: 50%;
+    right: 40%;
+    padding: 2px 4px;
+    border-radius: 4px;
+}
+
+.video-card-title {
+    color: white;
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, .1);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: .117px;
+    position: absolute;
+    bottom: 12px;
+    left: 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    z-index: 2;
+    text-align: start;
+}
+
+.video-action-btn {
+    color: var(--White-60, rgba(255, 255, 255, .8));
+    text-shadow: 0px 0px 2px rgba(0, 0, 0, .4);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    padding: 2px 4px;
+    border-radius: 4px;
+    background-color: #0009;
+}

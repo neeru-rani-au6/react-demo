@@ -1,0 +1,33 @@
+.back-img {
+  background-image: url('https://www.intract.io/assets/intract-academy-background-5547a705.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  margin: 0;
+}
+
+.first-comp {
+    position: relative;
+    text-align: center;
+  }
+  
+
+.animated-logo {
+    margin: 0 auto;
+    display: block;
+    mix-blend-mode: screen;
+    width: 235px;
+    transition: top .5s ease;
+  }
+
+  .spanText{
+    color: white;
+  }
+
+  .get-start-button {
+    background: #6435e9;
+    color: white;
+    padding: 10px 57px;
+    margin-top: 3rem;
+  }

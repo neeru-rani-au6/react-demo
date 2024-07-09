@@ -1,0 +1,200 @@
+.textStyle {
+    color: var(--White-100, #fff);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 8px;
+}
+
+.card {
+    display: flex;
+    width: 520px;
+    background: rgba(255, 255, 255, .05);
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
+    border-radius: 24px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border: none !important;
+}
+
+.card .ant-card-body {
+    display: flex;
+    padding: 12px;
+}
+.list-container{
+    max-height: 350px;
+    overflow: auto;
+}
+.card-style{
+    flex: 0 0 160px;
+        height: 180px;
+        padding: 8px;
+        border-radius: 16px;
+        border: 1px solid rgba(255, 255, 255, .2);
+        background: var(--White-05, rgba(255, 255, 255, .05));
+        position: relative;
+}
+.nft-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 12px; 
+}
+
+.btn {
+    width: max-content;
+    padding: 11px 24px;
+    gap: 8px;
+    border-radius: 1000px;
+    border: 1px solid var(--White-20, rgba(255, 255, 255, .2));
+    background: var(--Black-40, rgba(0, 0, 0, .4));
+    box-shadow: 0 0 5px #0000001a;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    position: absolute;
+    bottom: 16px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.cardContent{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.cardText{
+    color: var(--White-40, rgba(255, 255, 255, .4));
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 16px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.cardSpanText {
+    color: var(--White-100, #fff);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 8px;
+}
+
+.cardArrowButton {
+    position: absolute;
+    top: 8px;
+    right: -6px;
+    padding: 8px;
+    color: #fff3;
+    font-size: 20px;
+    transition: transform .2s ease;
+}
+
+.card-content-line{
+    border: 0;
+    height: 1px;
+    position: relative;
+    width: 100%;
+    display: block;
+    height: 1px;
+    background: repeating-linear-gradient(to right, rgba(255, 255, 255, .15), rgba(255, 255, 255, .15) 4px, transparent 4px, transparent 8px);
+    top: 0;
+    left: 0;
+}
+
+.buttonCardContent{
+    height: 32px;
+    padding: 8px 12px;
+    justify-content: center;
+    align-items: flex-start;
+    border-radius: 1000px;
+    border: .5px solid rgba(255, 255, 255, .05);
+    background: rgba(255, 255, 255, .07);
+    color: #fffc;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    width: max-content;
+}
+
+.cardListItem {
+    padding: 12px;
+    border-top: 1px solid rgba(255, 255, 255, .1);
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    background: #101010;
+    max-height: 350px;
+    overflow-y: auto;
+    left: 0;
+    top: 100%;
+    position: absolute;
+    border-bottom-left-radius: 24px;
+    border-bottom-right-radius: 24px;
+    width: 100%;
+}
+
+.lock-button {
+    display: flex;
+    width: 48px;
+    height: 48px;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1000px;
+    border: 1px solid var(--White-20, rgba(255, 255, 255, .2));
+    background: #131313;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transform: translate(34%, 35%);
+    font-size: 25px;
+    color: grey;
+}
+
+.p-text-style{
+    color: var(--White-20, rgba(255, 255, 255, .2));
+    text-shadow: 0px 0px 2px rgba(0, 0, 0, .4);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 16px;
+}
+
+.claim-button{
+    border-radius: 8px;
+    border: 1px solid var(--White-05, #363232) !important;
+    background: var(--White-05, rgba(255, 255, 255, .05));
+    display: flex;
+    width: 160px;
+    padding: 10px 0;
+    justify-content: center;
+    align-items: center;
+    color: var(--White-40, rgba(255, 255, 255, .4));
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    cursor: not-allowed !important;
+    color: grey !important;
+}
+
+.card-list-and-card {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    position: relative;
+    margin-top: -25px;
+}

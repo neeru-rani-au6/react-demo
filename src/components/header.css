@@ -1,0 +1,45 @@
+/* App.css or your CSS file */
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .menu-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .desktop-menu {
+    display: flex;
+  }
+  
+  .mobile-menu-icon {
+    display: none;
+    font-size: 20px;
+    cursor: pointer;
+    color: white;
+    padding-right: 10px;
+
+  }
+  
+  @media (max-width: 768px) {
+    .desktop-menu {
+      display: none;
+    }
+    .mobile-menu-icon {
+      display: block;
+    }
+    .searchBar {
+      width: 100%;
+      margin: 0;
+    }
+    .menu-container {
+      flex-grow: 1;
+      justify-content: flex-end;
+    }
+    .mobile-drawer .ant-drawer-body {
+      padding: 0;
+    }
+  }
+
+  
